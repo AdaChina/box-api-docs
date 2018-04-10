@@ -29,6 +29,16 @@ echo -n "serial:key" | base64
 Authorization: Basic QUMyNzU2Mjk1NTcwOjU3YTIwYWJkYTE5MzFhMTc1NzE0NGQwYQ==
 ```
 
+#### API版本号
+
+客户端请求时，需指定请求的API版本号
+
+如请求V1版本:
+
+```
+Accept: application/vnd.ada-box.v1+json
+```
+
 #### 应用版本号
 
 客户端请求时，需要发送当前应用版本号
