@@ -4,3 +4,4 @@
 
 * 第一版API文档
 * 添加API版本号Header
+* 添加测试环境API Endpoint

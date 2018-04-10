@@ -8,7 +8,7 @@ V1
 ## API Endpoint
 测试环境:
 ```
-TBD
+boxstaging.adachina.net
 ```
 生产环境:
 ```
