@@ -12,7 +12,7 @@ boxstaging.adachina.net
 ```
 生产环境:
 ```
-TBD
+box.adacampus.com
 ```
 
 ## 请求规范
