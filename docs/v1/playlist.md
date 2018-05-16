@@ -12,7 +12,7 @@ GET /playlist
 | -- | -- | -- | -- |
 | type | string | 素材类型 | image |
 | url | string | 素材地址 | a.com/b.png |
-| duration | integer | 图片停留时长/视频时长 | 60 |
+| duration | integer | 图片停留时长/视频时长（秒） | 180 |
 
 #### 响应例子
 
