@@ -12,6 +12,7 @@ GET /playlist
 | -- | -- | -- | -- |
 | type | string | 素材类型 | image |
 | url | string | 素材地址 | a.com/b.png |
+| duration | integer | 图片停留时长/视频时长 | 60 |
 
 #### 响应例子
 
@@ -19,11 +20,13 @@ GET /playlist
 [
     {
         "type": "image",
-        "url": "https://abc.com/1.png"
+        "url": "https://abc.com/1.png",
+        "duration": 20
     },
     {
         "type": "video",
-        "url": "https://abc.com/2.mp4"
+        "url": "https://abc.com/2.mp4",
+        "duration": 132
     }
 ]
 ```
